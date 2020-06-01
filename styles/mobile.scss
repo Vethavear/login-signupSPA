@@ -1,0 +1,47 @@
+//smartphones
+
+* {
+  overflow-x: hidden;
+}
+
+#showcase {
+  nav{
+    width: auto;
+    height: auto;
+    z-index:1;
+    .shadow{
+      display:none;
+    }
+    li{
+      &:first-child{
+        display:none;
+      }
+    }
+  }
+  #showcase-content {
+    height: 100%;
+    width: 100%;
+    .formLoginContainer {
+      height: 100%;
+      width: 100%;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      .top {
+        overflow: visible;
+      }
+    }
+    .formSignup {
+      height:100%;
+  width:100%;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius:0px ;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  .left{
+    display:none;
+  }
+}
+  }
+}

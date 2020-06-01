@@ -1,0 +1,48 @@
+* {
+  overflow-x: hidden;
+}
+
+#showcase nav {
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+
+#showcase nav .shadow {
+  display: none;
+}
+
+#showcase nav li:first-child {
+  display: none;
+}
+
+#showcase #showcase-content {
+  height: 100%;
+  width: 100%;
+}
+
+#showcase #showcase-content .formLoginContainer {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#showcase #showcase-content .formLoginContainer .top {
+  overflow: visible;
+}
+
+#showcase #showcase-content .formSignup {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#showcase #showcase-content .formSignup .left {
+  display: none;
+}

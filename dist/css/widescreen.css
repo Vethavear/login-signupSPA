@@ -1,0 +1,56 @@
+* {
+  overflow-x: hidden;
+}
+
+#showcase nav {
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+
+#showcase nav .shadow {
+  display: none;
+}
+
+#showcase nav li:first-child {
+  display: none;
+}
+
+#showcase #showcase-content {
+  height: 100%;
+  width: 100%;
+}
+
+#showcase #showcase-content .formLoginContainer {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#showcase #showcase-content .formLoginContainer .top .row label {
+  font-size: 1.5rem;
+}
+
+#showcase #showcase-content .formSignup {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#showcase #showcase-content .bottom {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#showcase #showcase-content .top {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
